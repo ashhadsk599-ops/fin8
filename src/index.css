@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", "Plus Jakarta Sans", sans-serif;
+  --font-editorial: "Plus Jakarta Sans", system-ui, sans-serif;
+  
+  --color-brand-green-dark: #2E7D32;
+  --color-brand-green-medium: #4CAF50;
+  --color-brand-green-light: #E8F5E9;
+  --color-brand-cream: #FFFDF7;
+  --color-brand-orange: #FF9800;
+  --color-brand-dark: #1B1B1B;
+  --color-brand-light: #777777;
+  --color-brand-success: #4CAF50;
+  --color-brand-warning: #FFC107;
+  --color-brand-error: #E53935;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-dark);
+}
+
+/* Layer & Role Typography Helpers */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans-ui {
+  font-family: var(--font-sans);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+/* Glassmorphism utility */
+.glass-effect {
+  background: rgba(255, 253, 247, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(46, 125, 50, 0.08);
+}
+
+/* Hide scrollbar for clean app container */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

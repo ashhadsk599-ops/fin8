@@ -1,0 +1,31 @@
+name: cura_meal
+description: Bedside hospital nourishment and clinical meal delivery mobile application.
+version: 1.0.1+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  geolocator: ^10.1.0
+  flutter_local_notifications: ^16.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png

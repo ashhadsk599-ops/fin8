@@ -1,0 +1,6 @@
+{
+  "name": "Cura Meal",
+  "description": "Healthy food ordering application designed specifically for hospitals in Bhatkal. Order warm, comforting, and nutritious meals directly to your room.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
